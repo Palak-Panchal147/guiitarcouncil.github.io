@@ -7,8 +7,8 @@ import React, { useState } from "react";
 // const mrpuranik = "/Assets/team/AI/mrpuranik.jpg";
 // const msrajput = "/Assets/team/AI/msrajput.jpg";
 
-const dummy =
-  "https://res.cloudinary.com/dopcjxehj/image/upload/v1743068744/dummy_yky2vq.jpg";
+//const dummy =
+ // "https://res.cloudinary.com/dopcjxehj/image/upload/v1743068744/dummy_yky2vq.jpg";
 const drbose =
   "https://res.cloudinary.com/dopcjxehj/image/upload/v1743068727/sanjukta_bose_k4tfew.jpg";
 const drmadhukumar =
