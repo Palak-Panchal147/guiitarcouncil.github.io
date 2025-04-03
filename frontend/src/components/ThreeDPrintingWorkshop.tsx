@@ -138,7 +138,7 @@ const ThreeDPrintingWorkshop: React.FC = () => {
               </h3>
               <p className="text-black">
                 Work in teams to solve real-world design challenges, fostering
-                collaboration and problem-[#2b5482]
+                collaboration and problem.
               </p>
             </div>
           </div>

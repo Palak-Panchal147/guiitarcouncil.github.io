@@ -17,8 +17,6 @@ const logos = [
 ];
 
 const projects: Project[] = [
-
-
   // Ayurtrix
   {
     students: [
@@ -166,6 +164,27 @@ const projects: Project[] = [
     projectLink: "/",
   },
 
+  // Noise Monitoring System
+  {
+    students: [
+      {
+        name: "Mr. Harsh Vaidya",
+        photoUrl:
+          "https://res.cloudinary.com/dopcjxehj/image/upload/v1743654566/WhatsApp_Image_2025-03-29_at_09.43.19_3d68639e_ofbmmh.jpg",
+      },
+      {
+        name: "Mr. Pratik Rathod",
+        photoUrl:
+          "https://res.cloudinary.com/dopcjxehj/image/upload/v1743654567/WhatsApp_Image_2025-03-29_at_09.43.19_f2f1a5ee_y723bg.jpg",
+      },
+    ],
+    grantAmount: "₹1,19,000",
+    mentor: "Ms. Swati Saxena, Assistant Professor, CSE",
+    project: "Noise Monitoring System",
+    usp: " The Atrium at Anviksha building serves as a central passageway for students, high noise level disrupts nearby classrooms and offices. So, we are developing low cost Noise Monitoring System to build a conducive learning environment.",
+    projectLink: "/",
+  },
+
   // Nutriblend Pro
   {
     students: [
@@ -198,34 +217,60 @@ const projects: Project[] = [
     students: [
       {
         name: "Ms. Khyati Shah",
-        photoUrl: "https://res.cloudinary.com/dopcjxehj/image/upload/v1743068744/dummy_yky2vq.jpg",
+        photoUrl:
+          "https://res.cloudinary.com/dopcjxehj/image/upload/v1743655251/Screenshot_20250127_152835_Drive_wsbmi6.jpg",
       },
       {
         name: "Mr. Viraj Patel",
-        photoUrl: "https://res.cloudinary.com/dopcjxehj/image/upload/v1743068744/dummy_yky2vq.jpg ",
+        photoUrl:
+          "https://res.cloudinary.com/dopcjxehj/image/upload/v1743068744/dummy_yky2vq.jpg ",
       },
-
     ],
     grantAmount: "₹87,000",
-    mentor: "Dr. Akhilesh Prajapati, Sr. Assistant Professor (Biological Science)",
+    mentor:
+      "Dr. Akhilesh Prajapati, Sr. Assistant Professor (Biological Science)",
     project: "Super food spirulina based nutritious chocolates",
     usp: "The Spirulina chocolate can be the potential solution considering the future advances. People of every age can consume it without bothering with the bitter taste of spirulina alone.",
     projectLink: "/",
   },
 
-
   //UGV
   {
     students: [
+      {
+        name: "Mr. Aryan Vamja",
+        photoUrl:
+          "https://res.cloudinary.com/dopcjxehj/image/upload/v1743657463/IMG-20250324-WA0056-removebg-preview-01_1_ds0sbo.jpg",
+      },
       {
         name: "Ms. Chahana Kamdar",
         photoUrl:
           "https://res.cloudinary.com/dopcjxehj/image/upload/v1743142784/chahana_rcc5vz.jpg",
       },
       {
+        name: "Mr. Deepkumar Gadhethariya",
+        photoUrl:
+          "https://res.cloudinary.com/dopcjxehj/image/upload/v1743657755/WhatsApp_Image_2025-04-03_at_10.47.50_0802800a_anttnu.jpg",
+      },
+      {
         name: "Ms. Kartavi Patel",
         photoUrl:
           "https://res.cloudinary.com/dopcjxehj/image/upload/v1743142782/kartavi_aeamjb.jpg",
+      },
+      {
+        name: "Ms. Krina Gothi",
+        photoUrl:
+          "https://res.cloudinary.com/dopcjxehj/image/upload/v1743657452/WhatsApp_Image_2025-04-03_at_10.44.40_c1093168_zpqfga.jpg",
+      },
+      {
+        name: "Ms. Nishtha Berawala",
+        photoUrl:
+          "https://res.cloudinary.com/dopcjxehj/image/upload/v1743657446/WhatsApp_Image_2025-04-03_at_10.44.23_9dca9ccc_jbyofq.jpg",
+      },
+      {
+        name: "Mr. Tirth Darji",
+        photoUrl:
+          "https://res.cloudinary.com/dopcjxehj/image/upload/v1743657461/WhatsApp_Image_2025-04-03_at_10.45.04_2372fea0_yseor8.jpg",
       },
     ],
     grantAmount: "₹152,665",
@@ -263,7 +308,7 @@ const projects: Project[] = [
     mentor: "Mr. Yatharth Bhatt, Lab Assistant, SOT, GSFCU",
     project: "USV Neil",
     usp: "A versatile solution for sustainable unmanned surface vehicle. Our innovative technology redefines maritime operations with multifunctional capabilities, from surveillance and monitoring to research and rescue missions.",
-    projectLink: "/",
+    projectLink: "/https://drive.google.com/file/d/19Cr-ozJPr01xM4grE6Zm6R4wP9tFRB04",
   },
 
   // Vegano Joy
@@ -298,6 +343,123 @@ const projects: Project[] = [
     projectLink: "/",
   },
 
+  //Sophrolipids
+  {
+    students: [
+      {
+        name: "Mr. Atharva Patil",
+        photoUrl:
+          "https://res.cloudinary.com/dopcjxehj/image/upload/v1743655046/IMG_20250329_125403_gihhwu.jpg",
+      },
+      {
+        name: "Ms. Mrugani Pandya",
+        photoUrl:
+          "https://res.cloudinary.com/dopcjxehj/image/upload/v1743655134/IMG_20250329_125351_fccwgh.jpg",
+      },
+      {
+        name: "Ms. Naiya Patel",
+        photoUrl:
+          "https://res.cloudinary.com/dopcjxehj/image/upload/v1743655047/IMG_20250329_125418_muwhx6.jpg",
+      },
+      {
+        name: "Ms. Priyanshi Panchal",
+        photoUrl:
+          "https://res.cloudinary.com/dopcjxehj/image/upload/v1743655046/IMG_20241110_214037_nmmn76.jpg",
+      },
+    ],
+    grantAmount: "₹250,000",
+    mentor: "Dr. Saroj Shekhawat, Associate Professor, School of Science,",
+    project: "Sophorolipids",
+    usp: "An eco-friendly biosurfactant ideal for personal care, cleaning, and environmental applications.",
+    projectLink: "/",
+  },
+
+  //Rhamnolipids
+  {
+    students: [
+      {
+        name: "Mr. Atharva Patil",
+        photoUrl:
+          "https://res.cloudinary.com/dopcjxehj/image/upload/v1743655046/IMG_20250329_125403_gihhwu.jpg",
+      },
+      {
+        name: "Ms. Mrugani Pandya",
+        photoUrl:
+          "https://res.cloudinary.com/dopcjxehj/image/upload/v1743655134/IMG_20250329_125351_fccwgh.jpg",
+      },
+      {
+        name: "Ms. Naiya Patel",
+        photoUrl:
+          "https://res.cloudinary.com/dopcjxehj/image/upload/v1743655047/IMG_20250329_125418_muwhx6.jpg",
+      },
+      {
+        name: "Ms. Priyanshi Panchal",
+        photoUrl:
+          "https://res.cloudinary.com/dopcjxehj/image/upload/v1743655046/IMG_20241110_214037_nmmn76.jpg",
+      },
+    ],
+    grantAmount: "₹250,000",
+    mentor: "Dr. Saroj Shekhawat, Associate Professor, School of Science,",
+    project: "Rhamnolipids",
+    usp: "Rhamnolipids- A potent, biodegradable biosurfactant with antimicrobial and antioxidant properties for industrial, environmental, and bioremediation applications.",
+    projectLink: "/",
+  },
+
+  //Bacterial Chroma
+  {
+    students: [
+      {
+        name: "Ms. Archi Modi",
+        photoUrl:
+          "https://res.cloudinary.com/dopcjxehj/image/upload/v1743654686/WhatsApp_Image_2025-03-29_at_13.56.15_d32a7284_lgnhgy.jpg",
+      },
+      {
+        name: "Ms. Bhakti Dave",
+        photoUrl:
+          "https://res.cloudinary.com/dopcjxehj/image/upload/v1743654689/WhatsApp_Image_2025-03-29_at_13.57.15_7c2a793e_whnt9y.jpg",
+      },
+      {
+        name: "Ms. Navya Patel",
+        photoUrl:
+          "https://res.cloudinary.com/dopcjxehj/image/upload/v1743654692/WhatsApp_Image_2025-03-29_at_13.57.01_f59fe7bb_qjvukk.jpg",
+      },
+      {
+        name: "Mr. Malhar Shukla",
+        photoUrl:
+          "https://res.cloudinary.com/dopcjxehj/image/upload/v1743654684/WhatsApp_Image_2025-03-29_at_13.56.03_771bf116_c4lk96.jpg",
+      },
+      {
+        name: "Ms. Rushali More",
+        photoUrl:
+          "https://res.cloudinary.com/dopcjxehj/image/upload/v1743654687/WhatsApp_Image_2025-03-29_at_13.56.29_81eb4218_t2bhvh.jpg",
+      },
+      {
+        name: "Mr. Vatsal Pandya",
+        photoUrl:
+          "https://res.cloudinary.com/dopcjxehj/image/upload/v1743654683/WhatsApp_Image_2025-03-29_at_13.55.51_d4a33ff3_lkmvti.jpg",
+      },
+    ],
+    grantAmount: "₹170,000",
+    mentor: "Dr. Ankit Sudhir, Senior Assistant Professor",
+    project: "Bacterial Chroma: A biopigment factory",
+    usp: "Biological (bacterial pigment) with antimicrobial and potentially therapeutic uses. Potential industrial uses",
+    projectLink: "/",
+  },
+
+  //Akshi
+  {
+    students: [
+      {
+        name: "Mr. Viraj Patel",
+        photoUrl: "https://res.cloudinary.com/dopcjxehj/image/upload/v1743068744/dummy_yky2vq.jpg",
+      },
+    ],
+    grantAmount: "₹250,000",
+    mentor: "Ms. Zalak Kansagra, Assistant Professor, CSE",
+    project: "Akshi: Smart Glass for real time virtual assisstance",
+    usp: "",
+    projectLink: "/",
+  },
 
   //project
   // {
@@ -314,29 +476,6 @@ const projects: Project[] = [
   //   usp: "",
   //   projectLink: "/",
   // },
-
-  //project
-  // {
-  //   students: [
-  //     {
-  //       name: "",
-  //       photoUrl: "",
-  //     },
-
-  //   ],
-  //   grantAmount: "₹",
-  //   mentor: "",
-  //   project: "",
-  //   usp: "",
-  //   projectLink: "/",
-  // },
-
-
-
-
-
-
-
 
   //INFORMATION ADDING TEMPLATE - Create copy of this dont use it directly
   // {
@@ -403,7 +542,10 @@ const StudentAchievementsCarousel: React.FC = () => {
   // const currentProject = projects[currentIndex];
 
   return (
-    <div id="achievement"className="relative w-full max-w-5xl mx-auto py-8 px-2 sm:px-4 lg:py-12">
+    <div
+      id="achievement"
+      className="relative w-full max-w-5xl mx-auto py-8 px-2 sm:px-4 lg:py-12"
+    >
       {/* Wrapper for Carousel and Buttons */}
       <div className="relative flex items-center">
         {/* Left Navigation Button (Hidden on small screens) */}

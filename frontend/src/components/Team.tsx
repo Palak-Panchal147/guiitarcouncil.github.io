@@ -8,7 +8,7 @@ import React, { useState } from "react";
 // const msrajput = "/Assets/team/AI/msrajput.jpg";
 
 const dummy =
-  "https://res.cloudinary.com/dopcjxehj/image/upload/v1743068625/dhruv_kfxnz7.jpg";
+  "https://res.cloudinary.com/dopcjxehj/image/upload/v1743068744/dummy_yky2vq.jpg";
 const drbose =
   "https://res.cloudinary.com/dopcjxehj/image/upload/v1743068727/sanjukta_bose_k4tfew.jpg";
 const drmadhukumar =
@@ -172,6 +172,8 @@ const vedantratna =
 const devanshi =
   "https://res.cloudinary.com/dopcjxehj/image/upload/v1743075961/WhatsApp_Image_2025-03-27_at_17.14.31_67532fc6_vevmxd.jpg";
 
+const dhru_verma = "https://res.cloudinary.com/dopcjxehj/image/upload/v1743068625/dhruv_kfxnz7.jpg"
+
 interface Tab {
   id: string;
   label: string;
@@ -208,14 +210,14 @@ const TabbedAboutTeam: React.FC = () => {
         role: "CEO, GUIITAR",
         image: mrbimal,
         resumeLink:
-          "https://drive.google.com/file/d/112CsLKNyusAz_DtrbrzGrpJc4odCcuKw/view?usp=drive_link",
+          "https://drive.google.com/file/d/112CsLKNyusAz_DtrbrzGrpJc4odCcuKw/",
       },
       {
         name: "Mr. KiranKumar Parmar",
         role: "Sr. Manager",
         image: mrkiran,
         resumeLink:
-          "https://drive.google.com/file/d/1ElxEwweEeZeroWkqfCd6RtrPqxKo5ZK-/view?usp=drive_link",
+          "https://drive.google.com/file/d/1ElxEwweEeZeroWkqfCd6RtrPqxKo5ZK-/",
       },
 
       // {
@@ -229,26 +231,26 @@ const TabbedAboutTeam: React.FC = () => {
         name: "Dr. Nilesh Bhadure",
         role: "Professor",
         image: drnilesh,
-        resumeLink: "",
+        resumeLink: "https://drive.google.com/file/d/1isIJeartTJQp5yJwirfFRPKvlNifryRJ/",
       },
       {
         name: "Mr. Akhilesh Prajapati",
         role: "Sr. Assistant Professor",
         image: drprajapati,
         resumeLink:
-          "https://drive.google.com/file/d/1Br9gUAJ1BXvaTveLrCcnPlYRREHgGRb2/view?usp=sharing",
+          "https://drive.google.com/file/d/1Br9gUAJ1BXvaTveLrCcnPlYRREHgGRb2/",
       },
       {
         name: "Dr. Mihir Trivedi",
         role: "Sr. Assistant Professor",
         image: drmihir,
-        resumeLink: "",
+        resumeLink: "https://drive.google.com/file/d/12wxMOWeDQjf1SQQp38XM9Arv9U0YghSp/",
       },
       {
         name: "Dr. Chandra Has",
         role: "Assistant Professor",
         image: drchandra,
-        resumeLink: "",
+        resumeLink: "https://drive.google.com/file/d/19uPcJ5kAL6r1YaAw6_Iyfy679Zeb1zQu/",
       },
       {
         name: "Dr. Jignesh Valand",
@@ -278,13 +280,13 @@ const TabbedAboutTeam: React.FC = () => {
         name: "Shri Anup Upadhaya",
         role: "Lab Assistant",
         image: mranup,
-        resumeLink: "",
+        resumeLink: "https://drive.google.com/file/d/1LosN0oHzTspRaGwY-gN3g9lKCL7q5j_u/view?usp=sharing",
       },
       {
         name: "Ms. Chaitali Karpe",
         role: "Lab Assistant",
         image: chaitali,
-        resumeLink: "",
+        resumeLink: "https://drive.google.com/file/d/1T1B5vGOpiyn9s9fX-FrMLQjIAFpOlmeM/view?usp=sharing",
       },
       // {
       //   name: "Dr. Abha Kalaiya", //done
@@ -837,25 +839,25 @@ const TabbedAboutTeam: React.FC = () => {
         name: "Mr. Soham Kava",
         role: "Academic Associate",
         image: soham,
-        resumeLink: "",
+        resumeLink: "https://drive.google.com/file/d/1c1xVXPzIx0En0QCoU_jl9U7BFlJka6i7/",
       },
       {
         name: "Ms. Devanshi Mufti",
         role: "Academic Associate",
         image: devanshi,
-        resumeLink: "",
+        resumeLink: "https://drive.google.com/file/d/1gWZmptw4iYsGJPDGOeIh1kW4YLclx-qn/",
       },
       {
         name: "Ms. Panjal Dave",
         role: "Academic Associate",
         image: pranjal,
-        resumeLink: "",
+        resumeLink: "https://drive.google.com/file/d/1sEjdxBqVI069NnBQRD1Hfj7HFbRwCFy7/",
       },
       {
         name: "Mr. Dhruv Verma",
         role: "Academic Associate",
-        image: dummy,
-        resumeLink: "",
+        image: dhru_verma,
+        resumeLink: "https://drive.google.com/file/d/11sZw31uVSSP3Qk_zdRk_eNbPombzRoHo/",
       },
       {
         name: "Ms. Ishika Patel",
@@ -863,24 +865,19 @@ const TabbedAboutTeam: React.FC = () => {
         image: ishika,
         resumeLink: "",
       },
-      {
-        name: "Ms. Khushi Makwana",
-        role: "Academic Associate",
-        image: dummy,
-        resumeLink: "",
-      },
+      
       {
         name: "Mr. Vedhant Ratnottar",
         role: "Student",
         image: vedantratna,
-        resumeLink: "",
+        resumeLink: "https://drive.google.com/file/d/1_tYZBdKP6gEpdyR64ypUi4auf0Lv6VJp/",
       },
       {
         name: "Ms. Chhaya Raundal",
         // role: "Academic Associate",
         role: "Student",
         image: chhaya,
-        resumeLink: "",
+        resumeLink: "https://drive.google.com/file/d/1dAnb35BNgZOURjsJaY_QHA4eMwsLj_Ca/",
       },
     ],
   };
