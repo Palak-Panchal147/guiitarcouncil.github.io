@@ -66,7 +66,7 @@ const projects: Project[] = [
     mentor: "Dr. Priya Goel, Assistant Professor (Chemistry)",
     project: "Bio-Lastic: A Safe Future with Flowers",
     usp: "BIO-LASTIC was conceived by Foram Mistry and Aayush Varia, two BSc Chemistry students. With guidance from Dr. Priya Goel, we realized the importance of finding sustainable solutions for the future. Inspired by the beauty and abundance of flowers in ritual places, we decided to harness their potential and transform them into a biodegradable polymer",
-    projectLink: "/",
+    projectLink: "https://drive.google.com/file/d/1d0qpqhYT2jZZ-hYyMwF1IQ5R36rXmWx1/view?usp=sharing",
   },
 
   // Chewable Oral Toothpaste
@@ -88,7 +88,7 @@ const projects: Project[] = [
       "Dr. Akhilesh Prajapati, Sr. Assistant Professor (Biological Science)",
     project: "Chewable Oral Toothpaste",
     usp: "No Chemicals & 100% Herbal Secures Oral Health with the Help of Ancient Indian Ayurvedic medicine User friendly & Easy to Carry Multi Purpose (Serves as Toothpaste & Mouth freshner)",
-    projectLink: "/",
+    projectLink: "https://drive.google.com/file/d/1Kk4Ao6pW-1BY6_8hQqTcp-SDzlPGCykU/view?usp=sharing",
   },
 
   // Defense Robot
@@ -135,7 +135,7 @@ const projects: Project[] = [
     mentor: "Ms. Mosam Patel, Program Coordinator, CSE",
     project: "Emotion detection through speech using AI/ML",
     usp: "Emotion detection through speech is a technology that utilizes advanced signal processing and machine learning techniques to analyze vocal cues and identify human emotions in real-time. By extracting features from speech signals and applying neural network models, this system aims to enhance human-computer interactions and various applications such as customer service and mental health monitoring.",
-    projectLink: "/",
+    projectLink: "https://drive.google.com/file/d/1UJX5Sne_bRYTovnZAdwKk4av2VZfqlM3/view?usp=sharing",
   },
 
   //ESRT-ALOU
@@ -182,7 +182,7 @@ const projects: Project[] = [
     mentor: "Ms. Swati Saxena, Assistant Professor, CSE",
     project: "Noise Monitoring System",
     usp: " The Atrium at Anviksha building serves as a central passageway for students, high noise level disrupts nearby classrooms and offices. So, we are developing low cost Noise Monitoring System to build a conducive learning environment.",
-    projectLink: "/",
+    projectLink: "https://drive.google.com/file/d/1HOX_gxhjjGNOq6q0Vvv_v-YmcDmqIGEH/view?usp=sharing",
   },
 
   // Nutriblend Pro
@@ -443,7 +443,7 @@ const projects: Project[] = [
     mentor: "Dr. Ankit Sudhir, Senior Assistant Professor",
     project: "Bacterial Chroma: A biopigment factory",
     usp: "Biological (bacterial pigment) with antimicrobial and potentially therapeutic uses. Potential industrial uses",
-    projectLink: "/",
+    projectLink: "https://drive.google.com/file/d/1s0SwcNAXwdsDfl4n5JslikOrBZQgsen1/view?usp=sharing",
   },
 
   //Akshi
