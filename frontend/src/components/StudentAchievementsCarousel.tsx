@@ -277,7 +277,7 @@ const projects: Project[] = [
     mentor: "Mr. Yatharth Bhatt, Lab Assistant, SOT, GSFCU",
     project: "Unmanned Ground Vehicle (UGV)",
     usp: "Modular, eco-friendly, GPS-enabled, built for high tasks like survelliance. and industrial monitoring and military and disaster response",
-    projectLink: "/",
+    projectLink: "https://drive.google.com/file/d/1P3nehuLGC2JkAclkOYGnNV9lJ0T_navK/view?usp=sharing",
   },
 
   // USV Neil
@@ -371,7 +371,7 @@ const projects: Project[] = [
     mentor: "Dr. Saroj Shekhawat, Associate Professor, School of Science,",
     project: "Sophorolipids",
     usp: "An eco-friendly biosurfactant ideal for personal care, cleaning, and environmental applications.",
-    projectLink: "/",
+    projectLink: "https://drive.google.com/file/d/1fMIlugx6nmr6hhmYztox6ssT6gHdzOJ3/view?usp=sharing",
   },
 
   //Rhamnolipids
@@ -402,7 +402,7 @@ const projects: Project[] = [
     mentor: "Dr. Saroj Shekhawat, Associate Professor, School of Science,",
     project: "Rhamnolipids",
     usp: "Rhamnolipids- A potent, biodegradable biosurfactant with antimicrobial and antioxidant properties for industrial, environmental, and bioremediation applications.",
-    projectLink: "/",
+    projectLink: "https://drive.google.com/file/d/1Oyz0RkYuAQN8U2-m296mr7dFzCOqRZNG/view?usp=sharing",
   },
 
   //Bacterial Chroma

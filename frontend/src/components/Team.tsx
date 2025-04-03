@@ -863,7 +863,7 @@ const TabbedAboutTeam: React.FC = () => {
         name: "Ms. Ishika Patel",
         role: "Academic Associate",
         image: ishika,
-        resumeLink: "",
+        resumeLink: "https://drive.google.com/file/d/1prBp-K4o56VK0J3Te7IZXqdQfduUq0ow/view?usp=sharing",
       },
       
       {
