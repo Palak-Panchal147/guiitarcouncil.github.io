@@ -66,7 +66,50 @@ const projects: Project[] = [
     mentor: "Dr. Priya Goel, Assistant Professor (Chemistry)",
     project: "Bio-Lastic: A Safe Future with Flowers",
     usp: "BIO-LASTIC was conceived by Foram Mistry and Aayush Varia, two BSc Chemistry students. With guidance from Dr. Priya Goel, we realized the importance of finding sustainable solutions for the future. Inspired by the beauty and abundance of flowers in ritual places, we decided to harness their potential and transform them into a biodegradable polymer",
-    projectLink: "https://drive.google.com/file/d/1d0qpqhYT2jZZ-hYyMwF1IQ5R36rXmWx1/view?usp=sharing",
+    projectLink:
+      "https://drive.google.com/file/d/1d0qpqhYT2jZZ-hYyMwF1IQ5R36rXmWx1/view?usp=sharing",
+  },
+
+  //Bacterial Chroma
+  {
+    students: [
+      {
+        name: "Ms. Archi Modi",
+        photoUrl:
+          "https://res.cloudinary.com/dopcjxehj/image/upload/v1743654686/WhatsApp_Image_2025-03-29_at_13.56.15_d32a7284_lgnhgy.jpg",
+      },
+      {
+        name: "Ms. Bhakti Dave",
+        photoUrl:
+          "https://res.cloudinary.com/dopcjxehj/image/upload/v1743654689/WhatsApp_Image_2025-03-29_at_13.57.15_7c2a793e_whnt9y.jpg",
+      },
+      {
+        name: "Ms. Navya Patel",
+        photoUrl:
+          "https://res.cloudinary.com/dopcjxehj/image/upload/v1743654692/WhatsApp_Image_2025-03-29_at_13.57.01_f59fe7bb_qjvukk.jpg",
+      },
+      {
+        name: "Mr. Malhar Shukla",
+        photoUrl:
+          "https://res.cloudinary.com/dopcjxehj/image/upload/v1743654684/WhatsApp_Image_2025-03-29_at_13.56.03_771bf116_c4lk96.jpg",
+      },
+      {
+        name: "Ms. Rushali More",
+        photoUrl:
+          "https://res.cloudinary.com/dopcjxehj/image/upload/v1743654687/WhatsApp_Image_2025-03-29_at_13.56.29_81eb4218_t2bhvh.jpg",
+      },
+      {
+        name: "Mr. Vatsal Pandya",
+        photoUrl:
+          "https://res.cloudinary.com/dopcjxehj/image/upload/v1743654683/WhatsApp_Image_2025-03-29_at_13.55.51_d4a33ff3_lkmvti.jpg",
+      },
+    ],
+    grantAmount: "₹170,000",
+    mentor: "Dr. Ankit Sudhir, Senior Assistant Professor",
+    project: "Bacterial Chroma: A biopigment factory",
+    usp: "Biological (bacterial pigment) with antimicrobial and potentially therapeutic uses. Potential industrial uses",
+    projectLink:
+      "https://drive.google.com/file/d/1s0SwcNAXwdsDfl4n5JslikOrBZQgsen1/view?usp=sharing",
   },
 
   // Chewable Oral Toothpaste
@@ -88,7 +131,8 @@ const projects: Project[] = [
       "Dr. Akhilesh Prajapati, Sr. Assistant Professor (Biological Science)",
     project: "Chewable Oral Toothpaste",
     usp: "No Chemicals & 100% Herbal Secures Oral Health with the Help of Ancient Indian Ayurvedic medicine User friendly & Easy to Carry Multi Purpose (Serves as Toothpaste & Mouth freshner)",
-    projectLink: "https://drive.google.com/file/d/1Kk4Ao6pW-1BY6_8hQqTcp-SDzlPGCykU/view?usp=sharing",
+    projectLink:
+      "https://drive.google.com/file/d/1Kk4Ao6pW-1BY6_8hQqTcp-SDzlPGCykU/view?usp=sharing",
   },
 
   // Defense Robot
@@ -135,7 +179,8 @@ const projects: Project[] = [
     mentor: "Ms. Mosam Patel, Program Coordinator, CSE",
     project: "Emotion detection through speech using AI/ML",
     usp: "Emotion detection through speech is a technology that utilizes advanced signal processing and machine learning techniques to analyze vocal cues and identify human emotions in real-time. By extracting features from speech signals and applying neural network models, this system aims to enhance human-computer interactions and various applications such as customer service and mental health monitoring.",
-    projectLink: "https://drive.google.com/file/d/1UJX5Sne_bRYTovnZAdwKk4av2VZfqlM3/view?usp=sharing",
+    projectLink:
+      "https://drive.google.com/file/d/1UJX5Sne_bRYTovnZAdwKk4av2VZfqlM3/view?usp=sharing",
   },
 
   //ESRT-ALOU
@@ -182,7 +227,8 @@ const projects: Project[] = [
     mentor: "Ms. Swati Saxena, Assistant Professor, CSE",
     project: "Noise Monitoring System",
     usp: " The Atrium at Anviksha building serves as a central passageway for students, high noise level disrupts nearby classrooms and offices. So, we are developing low cost Noise Monitoring System to build a conducive learning environment.",
-    projectLink: "https://drive.google.com/file/d/1HOX_gxhjjGNOq6q0Vvv_v-YmcDmqIGEH/view?usp=sharing",
+    projectLink:
+      "https://drive.google.com/file/d/1HOX_gxhjjGNOq6q0Vvv_v-YmcDmqIGEH/view?usp=sharing",
   },
 
   // Nutriblend Pro
@@ -212,6 +258,38 @@ const projects: Project[] = [
     projectLink: "/",
   },
 
+  //Rhamnolipids
+  {
+    students: [
+      {
+        name: "Mr. Atharva Patil",
+        photoUrl:
+          "https://res.cloudinary.com/dopcjxehj/image/upload/v1743655046/IMG_20250329_125403_gihhwu.jpg",
+      },
+      {
+        name: "Ms. Mrugani Pandya",
+        photoUrl:
+          "https://res.cloudinary.com/dopcjxehj/image/upload/v1743655134/IMG_20250329_125351_fccwgh.jpg",
+      },
+      {
+        name: "Ms. Naiya Patel",
+        photoUrl:
+          "https://res.cloudinary.com/dopcjxehj/image/upload/v1743655047/IMG_20250329_125418_muwhx6.jpg",
+      },
+      {
+        name: "Ms. Priyanshi Panchal",
+        photoUrl:
+          "https://res.cloudinary.com/dopcjxehj/image/upload/v1743655046/IMG_20241110_214037_nmmn76.jpg",
+      },
+    ],
+    grantAmount: "₹250,000",
+    mentor: "Dr. Saroj Shekhawat, Associate Professor, School of Science,",
+    project: "Rhamnolipids",
+    usp: "Rhamnolipids- A potent, biodegradable biosurfactant with antimicrobial and antioxidant properties for industrial, environmental, and bioremediation applications.",
+    projectLink:
+      "https://drive.google.com/file/d/1Oyz0RkYuAQN8U2-m296mr7dFzCOqRZNG/view?usp=sharing",
+  },
+
   //Super food spirulina based nutritious chocolates
   {
     students: [
@@ -232,6 +310,38 @@ const projects: Project[] = [
     project: "Super food spirulina based nutritious chocolates",
     usp: "The Spirulina chocolate can be the potential solution considering the future advances. People of every age can consume it without bothering with the bitter taste of spirulina alone.",
     projectLink: "/",
+  },
+
+  //Sophrolipids
+  {
+    students: [
+      {
+        name: "Mr. Atharva Patil",
+        photoUrl:
+          "https://res.cloudinary.com/dopcjxehj/image/upload/v1743655046/IMG_20250329_125403_gihhwu.jpg",
+      },
+      {
+        name: "Ms. Mrugani Pandya",
+        photoUrl:
+          "https://res.cloudinary.com/dopcjxehj/image/upload/v1743655134/IMG_20250329_125351_fccwgh.jpg",
+      },
+      {
+        name: "Ms. Naiya Patel",
+        photoUrl:
+          "https://res.cloudinary.com/dopcjxehj/image/upload/v1743655047/IMG_20250329_125418_muwhx6.jpg",
+      },
+      {
+        name: "Ms. Priyanshi Panchal",
+        photoUrl:
+          "https://res.cloudinary.com/dopcjxehj/image/upload/v1743655046/IMG_20241110_214037_nmmn76.jpg",
+      },
+    ],
+    grantAmount: "₹250,000",
+    mentor: "Dr. Saroj Shekhawat, Associate Professor, School of Science,",
+    project: "Sophorolipids",
+    usp: "An eco-friendly biosurfactant ideal for personal care, cleaning, and environmental applications.",
+    projectLink:
+      "https://drive.google.com/file/d/1fMIlugx6nmr6hhmYztox6ssT6gHdzOJ3/view?usp=sharing",
   },
 
   //UGV
@@ -277,7 +387,8 @@ const projects: Project[] = [
     mentor: "Mr. Yatharth Bhatt, Lab Assistant, SOT, GSFCU",
     project: "Unmanned Ground Vehicle (UGV)",
     usp: "Modular, eco-friendly, GPS-enabled, built for high tasks like survelliance. and industrial monitoring and military and disaster response",
-    projectLink: "https://drive.google.com/file/d/1P3nehuLGC2JkAclkOYGnNV9lJ0T_navK/view?usp=sharing",
+    projectLink:
+      "https://drive.google.com/file/d/1P3nehuLGC2JkAclkOYGnNV9lJ0T_navK/view?usp=sharing",
   },
 
   // USV Neil
@@ -308,7 +419,8 @@ const projects: Project[] = [
     mentor: "Mr. Yatharth Bhatt, Lab Assistant, SOT, GSFCU",
     project: "USV Neil",
     usp: "A versatile solution for sustainable unmanned surface vehicle. Our innovative technology redefines maritime operations with multifunctional capabilities, from surveillance and monitoring to research and rescue missions.",
-    projectLink: "/https://drive.google.com/file/d/19Cr-ozJPr01xM4grE6Zm6R4wP9tFRB04",
+    projectLink:
+      "/https://drive.google.com/file/d/19Cr-ozJPr01xM4grE6Zm6R4wP9tFRB04",
   },
 
   // Vegano Joy
@@ -343,115 +455,13 @@ const projects: Project[] = [
     projectLink: "/",
   },
 
-  //Sophrolipids
-  {
-    students: [
-      {
-        name: "Mr. Atharva Patil",
-        photoUrl:
-          "https://res.cloudinary.com/dopcjxehj/image/upload/v1743655046/IMG_20250329_125403_gihhwu.jpg",
-      },
-      {
-        name: "Ms. Mrugani Pandya",
-        photoUrl:
-          "https://res.cloudinary.com/dopcjxehj/image/upload/v1743655134/IMG_20250329_125351_fccwgh.jpg",
-      },
-      {
-        name: "Ms. Naiya Patel",
-        photoUrl:
-          "https://res.cloudinary.com/dopcjxehj/image/upload/v1743655047/IMG_20250329_125418_muwhx6.jpg",
-      },
-      {
-        name: "Ms. Priyanshi Panchal",
-        photoUrl:
-          "https://res.cloudinary.com/dopcjxehj/image/upload/v1743655046/IMG_20241110_214037_nmmn76.jpg",
-      },
-    ],
-    grantAmount: "₹250,000",
-    mentor: "Dr. Saroj Shekhawat, Associate Professor, School of Science,",
-    project: "Sophorolipids",
-    usp: "An eco-friendly biosurfactant ideal for personal care, cleaning, and environmental applications.",
-    projectLink: "https://drive.google.com/file/d/1fMIlugx6nmr6hhmYztox6ssT6gHdzOJ3/view?usp=sharing",
-  },
-
-  //Rhamnolipids
-  {
-    students: [
-      {
-        name: "Mr. Atharva Patil",
-        photoUrl:
-          "https://res.cloudinary.com/dopcjxehj/image/upload/v1743655046/IMG_20250329_125403_gihhwu.jpg",
-      },
-      {
-        name: "Ms. Mrugani Pandya",
-        photoUrl:
-          "https://res.cloudinary.com/dopcjxehj/image/upload/v1743655134/IMG_20250329_125351_fccwgh.jpg",
-      },
-      {
-        name: "Ms. Naiya Patel",
-        photoUrl:
-          "https://res.cloudinary.com/dopcjxehj/image/upload/v1743655047/IMG_20250329_125418_muwhx6.jpg",
-      },
-      {
-        name: "Ms. Priyanshi Panchal",
-        photoUrl:
-          "https://res.cloudinary.com/dopcjxehj/image/upload/v1743655046/IMG_20241110_214037_nmmn76.jpg",
-      },
-    ],
-    grantAmount: "₹250,000",
-    mentor: "Dr. Saroj Shekhawat, Associate Professor, School of Science,",
-    project: "Rhamnolipids",
-    usp: "Rhamnolipids- A potent, biodegradable biosurfactant with antimicrobial and antioxidant properties for industrial, environmental, and bioremediation applications.",
-    projectLink: "https://drive.google.com/file/d/1Oyz0RkYuAQN8U2-m296mr7dFzCOqRZNG/view?usp=sharing",
-  },
-
-  //Bacterial Chroma
-  {
-    students: [
-      {
-        name: "Ms. Archi Modi",
-        photoUrl:
-          "https://res.cloudinary.com/dopcjxehj/image/upload/v1743654686/WhatsApp_Image_2025-03-29_at_13.56.15_d32a7284_lgnhgy.jpg",
-      },
-      {
-        name: "Ms. Bhakti Dave",
-        photoUrl:
-          "https://res.cloudinary.com/dopcjxehj/image/upload/v1743654689/WhatsApp_Image_2025-03-29_at_13.57.15_7c2a793e_whnt9y.jpg",
-      },
-      {
-        name: "Ms. Navya Patel",
-        photoUrl:
-          "https://res.cloudinary.com/dopcjxehj/image/upload/v1743654692/WhatsApp_Image_2025-03-29_at_13.57.01_f59fe7bb_qjvukk.jpg",
-      },
-      {
-        name: "Mr. Malhar Shukla",
-        photoUrl:
-          "https://res.cloudinary.com/dopcjxehj/image/upload/v1743654684/WhatsApp_Image_2025-03-29_at_13.56.03_771bf116_c4lk96.jpg",
-      },
-      {
-        name: "Ms. Rushali More",
-        photoUrl:
-          "https://res.cloudinary.com/dopcjxehj/image/upload/v1743654687/WhatsApp_Image_2025-03-29_at_13.56.29_81eb4218_t2bhvh.jpg",
-      },
-      {
-        name: "Mr. Vatsal Pandya",
-        photoUrl:
-          "https://res.cloudinary.com/dopcjxehj/image/upload/v1743654683/WhatsApp_Image_2025-03-29_at_13.55.51_d4a33ff3_lkmvti.jpg",
-      },
-    ],
-    grantAmount: "₹170,000",
-    mentor: "Dr. Ankit Sudhir, Senior Assistant Professor",
-    project: "Bacterial Chroma: A biopigment factory",
-    usp: "Biological (bacterial pigment) with antimicrobial and potentially therapeutic uses. Potential industrial uses",
-    projectLink: "https://drive.google.com/file/d/1s0SwcNAXwdsDfl4n5JslikOrBZQgsen1/view?usp=sharing",
-  },
-
   //Akshi
   {
     students: [
       {
         name: "Mr. Viraj Patel",
-        photoUrl: "https://res.cloudinary.com/dopcjxehj/image/upload/v1743068744/dummy_yky2vq.jpg",
+        photoUrl:
+          "https://res.cloudinary.com/dopcjxehj/image/upload/v1743068744/dummy_yky2vq.jpg",
       },
     ],
     grantAmount: "₹250,000",
