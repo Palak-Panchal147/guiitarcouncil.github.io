@@ -21,8 +21,8 @@ import TermsAndConditions from "./components/TermsAndConditions";
 import PrivacyPolicy from "./components/PrivacyPolicy";
 import NotFoundPage from "./components/NotFoundPage";
 import ThreeDPrintingWorkshop from "./components/ThreeDPrintingWorkshop";
-
 import DroneWorkshop from "./components/DroneWorkshop";
+import ScrollToTop from "./components/ScrollToTop";
 
 const AppContent: React.FC = () => {
   const location = useLocation();
@@ -203,6 +203,7 @@ const AppContent: React.FC = () => {
 const App: React.FC = () => {
   return (
     <Router>
+        <ScrollToTop /> 
       <AppContent />
     </Router>
   );
