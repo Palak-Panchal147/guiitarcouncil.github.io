@@ -8,20 +8,19 @@ import lgZoom from "lightgallery/plugins/zoom";
 
 const events = [
   {
-    name: "Event 1",
+    name: "iHub Visit",
+    date: "December 7, 2024", // Example date, adjust as needed
     photos: [
-      "https://res.cloudinary.com/dopcjxehj/image/upload/v1743341632/IMG_2129_k6cst3.jpg",
-      "https://res.cloudinary.com/dopcjxehj/image/upload/v1743341629/IMG_1057_iuu9ap.jpg",
-      "https://res.cloudinary.com/dopcjxehj/image/upload/v1743341622/BRP_4939_am2bxi.jpg",
-      "https://res.cloudinary.com/dopcjxehj/image/upload/v1743341623/IMG_20211008_160359_pb2es4.jpg",
-      "https://res.cloudinary.com/dopcjxehj/image/upload/v1743341623/IMG_20211008_160359_pb2es4.jpg",
-      "https://res.cloudinary.com/dopcjxehj/image/upload/v1743341622/BRP_4939_am2bxi.jpg",
-      "https://res.cloudinary.com/dopcjxehj/image/upload/v1743341629/IMG_1057_iuu9ap.jpg",
-      "https://res.cloudinary.com/dopcjxehj/image/upload/v1743341632/IMG_2129_k6cst3.jpg",
+      "https://res.cloudinary.com/dopcjxehj/image/upload/v1743829633/1733646301389_c7f7bi.jpg",
+      "https://res.cloudinary.com/dopcjxehj/image/upload/v1743829655/1733646301197_gsuedo.jpg",
+      "https://res.cloudinary.com/dopcjxehj/image/upload/v1743829679/1733646300983_lo7k6k.jpg",
+      "https://res.cloudinary.com/dopcjxehj/image/upload/v1743829645/1733646301186_meblor.jpg",
+      "https://res.cloudinary.com/dopcjxehj/image/upload/v1743829635/1733646301004_oo9le2.jpg",
     ],
   },
   {
     name: "Event 2",
+    date: "December 8, 2023", // Example date, adjust as needed
     photos: [
       "https://res.cloudinary.com/dopcjxehj/image/upload/v1743341616/IMG_3538_k6smvq.jpg",
       "https://res.cloudinary.com/dopcjxehj/image/upload/v1743341616/IMG_1176_vuhbuy.jpg",
@@ -69,6 +68,9 @@ const EventGallery: React.FC = () => {
               </a>
             ))}
           </LightGallery>
+          <p className="text-center text-gray-600 mt-6 text-lg">
+            Date: {event.date}
+          </p>
         </div>
       ))}
     </div>

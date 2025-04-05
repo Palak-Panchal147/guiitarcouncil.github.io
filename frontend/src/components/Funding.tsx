@@ -1,5 +1,6 @@
 import React from "react";
-import StudentAchievementsCarousel from "./StudentAchievementsCarousel";
+import StudentAchievementsCarousel from "./ProjectsFunded";
+import SupportedCompanies from "./SupportedCompanies";
 
 const Funding: React.FC = () => {
   return (
@@ -20,8 +21,8 @@ const Funding: React.FC = () => {
 
       <div className="main-content flex justify-center items-center my-[100px] max-[768px]:my-[50px] max-[480px]:my-[30px]">
         <div className="grid-container grid grid-cols-2 gap-[50px] w-[90%] max-w-[1400px] max-[1024px]:gap-[40px] max-[768px]:grid-cols-1 max-[768px]:gap-[30px] max-[480px]:gap-[20px]">
-          {/* SSIP */}
-          <div className="car flex flex-col justify-center items-center text-center rounded-[15px] p-[40px] gap-[30px] bg-white shadow-[0_4px_8px_rgba(0,0,0,0.1)] transition-all duration-300 ease-in hover:-translate-y-[5px] hover:shadow-[0_8px_16px_rgba(0,0,0,0.2)] max-[1024px]:p-[30px] max-[768px]:p-[20px] max-[480px]:p-[15px]">
+          {/* SSIP Info */}
+          <div className="car order-1 max-[768px]:order-1 flex flex-col justify-center items-center text-center rounded-[15px] p-[40px] gap-[30px] bg-white shadow-[0_4px_8px_rgba(0,0,0,0.1)] transition-all duration-300 ease-in hover:-translate-y-[5px] hover:shadow-[0_8px_16px_rgba(0,0,0,0.2)] max-[1024px]:p-[30px] max-[768px]:p-[20px] max-[480px]:p-[15px]">
             <h3
               id="ssip"
               className="text-[#2b5482] text-[4rem] font m-0 max-[1024px]:text-[3rem] max-[768px]:text-[2.5rem] max-[480px]:text-[2rem]"
@@ -66,22 +67,26 @@ const Funding: React.FC = () => {
             </div>
           </div>
 
-          {/* Nodal */}
-          <div className="image-car flex flex-col justify-center items-center text-center rounded-[15px] p-[40px] gap-[30px] text-[3rem] text-primary font bg-[#f0f8ff] shadow-[0_4px_8px_rgba(0,0,0,0.1)] border-2 border-[#ccc] transition-all duration-300 ease-in hover:-translate-y-[5px] hover:shadow-[0_8px_16px_rgba(0,0,0,0.2)] max-[1024px]:p-[30px] max-[768px]:p-[20px] max-[480px]:p-[15px] max-[768px]:h-[200px] max-[480px]:h-[150px]">
+          {/* SSIP Image */}
+          <div className="image-car order-2 max-[768px]:order-2 flex flex-col justify-center items-center text-center rounded-[15px] p-[40px] gap-[30px] text-[3rem] text-primary font bg-[#f0f8ff] shadow-[0_4px_8px_rgba(0,0,0,0.1)] border-2 border-[#ccc] transition-all duration-300 ease-in hover:-translate-y-[5px] hover:shadow-[0_8px_16px_rgba(0,0,0,0.2)] max-[1024px]:p-[30px] max-[768px]:p-[20px] max-[480px]:p-[15px] max-[768px]:h-[200px] max-[480px]:h-[150px]">
             <img
               src="https://res.cloudinary.com/dopcjxehj/image/upload/v1743068561/as4-new_pufqeo.png"
               alt="SSIP 2.0 Logo"
               className="h-[180px] w-auto object-contain max-[768px]:h-[120px] max-[480px]:h-[100px]"
             />
           </div>
-          <div className="image-car flex flex-col justify-center items-center text-center rounded-[15px] p-[40px] gap-[30px] text-[3rem] text-primary font bg-[#f0f8ff] shadow-[0_4px_8px_rgba(0,0,0,0.1)] border-2 border-[#ccc] transition-all duration-300 ease-in hover:-translate-y-[5px] hover:shadow-[0_8px_16px_rgba(0,0,0,0.2)] max-[1024px]:p-[30px] max-[768px]:p-[20px] max-[480px]:p-[15px] max-[768px]:h-[200px] max-[480px]:h-[150px]">
+
+          {/* Nodal Image */}
+          <div className="image-car order-3 max-[768px]:order-3 flex flex-col justify-center items-center text-center rounded-[15px] p-[40px] gap-[30px] text-[3rem] text-primary font bg-[#f0f8ff] shadow-[0_4px_8px_rgba(0,0,0,0.1)] border-2 border-[#ccc] transition-all duration-300 ease-in hover:-translate-y-[5px] hover:shadow-[0_8px_16px_rgba(0,0,0,0.2)] max-[1024px]:p-[30px] max-[768px]:p-[20px] max-[480px]:p-[15px] max-[768px]:h-[200px] max-[480px]:h-[150px]">
             <img
               src="https://res.cloudinary.com/dopcjxehj/image/upload/v1743068560/startupguj_wzfm2b.png"
               alt="Nodal Institute Logo"
               className="h-[400px] w-auto object-contain -mt-[40px] max-[768px]:h-[120px] max-[768px]:mt-0 max-[480px]:h-[100px]"
             />
           </div>
-          <div className="car flex flex-col justify-center items-center text-center rounded-[15px] p-[40px] gap-[30px] bg-white shadow-[0_4px_8px_rgba(0,0,0,0.1)] transition-all duration-300 ease-in hover:-translate-y-[5px] hover:shadow-[0_8px_16px_rgba(0,0,0,0.2)] max-[1024px]:p-[30px] max-[768px]:p-[20px] max-[480px]:p-[15px]">
+
+          {/* Nodal Info */}
+          <div className="car order-4 max-[768px]:order-4 flex flex-col justify-center items-center text-center rounded-[15px] p-[40px] gap-[30px] bg-white shadow-[0_4px_8px_rgba(0,0,0,0.1)] transition-all duration-300 ease-in hover:-translate-y-[5px] hover:shadow-[0_8px_16px_rgba(0,0,0,0.2)] max-[1024px]:p-[30px] max-[768px]:p-[20px] max-[480px]:p-[15px]">
             <h3
               id="nodal"
               className="text-[#2b5482] text-[4rem] font m-0 max-[1024px]:text-[3rem] max-[768px]:text-[2.5rem] max-[480px]:text-[2rem]"
@@ -125,8 +130,8 @@ const Funding: React.FC = () => {
             </div>
           </div>
 
-          {/* IPR */}
-          <div className="car flex flex-col justify-center items-center text-center rounded-[15px] p-[40px] gap-[30px] bg-white shadow-[0_4px_8px_rgba(0,0,0,0.1)] transition-all duration-300 ease-in hover:-translate-y-[5px] hover:shadow-[0_8px_16px_rgba(0,0,0,0.2)] max-[1024px]:p-[30px] max-[768px]:p-[20px] max-[480px]:p-[15px]">
+          {/* IPR Info */}
+          <div className="car order-5 max-[768px]:order-5 flex flex-col justify-center items-center text-center rounded-[15px] p-[40px] gap-[30px] bg-white shadow-[0_4px_8px_rgba(0,0,0,0.1)] transition-all duration-300 ease-in hover:-translate-y-[5px] hover:shadow-[0_8px_16px_rgba(0,0,0,0.2)] max-[1024px]:p-[30px] max-[768px]:p-[20px] max-[480px]:p-[15px]">
             <h3 className="text-[#2b5482] text-[4rem] font m-0 max-[1024px]:text-[3rem] max-[768px]:text-[2.5rem] max-[480px]:text-[2rem]">
               IPR Centre
             </h3>
@@ -148,16 +153,16 @@ const Funding: React.FC = () => {
                   aria-label="Learn more about IPR Centre"
                 >
                   <button className="mt-[20px] px-[20px] py-[10px] text-[1.2rem] bg-[#2b5482] text-white border-none rounded-[8px] cursor-pointer transition-all duration-300 ease-in hover:bg-secondary hover:text-primary hover:border hover:border-[#333] max-[1024px]:text-[1.1rem] max-[768px]:text-[1rem] max-[480px]:text-[0.875rem] max-[480px]:px-[15px] max-[480px]:py-[8px]">
-                    Learn more about IPR support
+                    Learn more about this grant
                   </button>
                 </a>
               </div>
               <div className="funding-btn">
                 <a
-                  href="https://docs.google.com/forms/d/e/1FAIpQLSc0zfawCS7M_Q-uOzlA87ARxNCCx-wNUXAAx_54RAORIF_w6g/viewform"
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSchfX1JB-oZvQOm4ff9iJuQjD9f1Tu3T84OT3279RoHjq_ivg/viewform"
                   target="_blank"
                   rel="noopener noreferrer"
-                  aria-label="Apply for IPR Centre support"
+                  aria-label="Apply for IPR Centre funding"
                 >
                   <button className="mt-[20px] px-[20px] py-[10px] text-[1.2rem] bg-[#2b5482] text-white border-none rounded-[8px] cursor-pointer transition-all duration-300 ease-in hover:bg-secondary hover:text-primary hover:border hover:border-[#333] max-[1024px]:text-[1.1rem] max-[768px]:text-[1rem] max-[480px]:text-[0.875rem] max-[480px]:px-[15px] max-[480px]:py-[8px]">
                     Apply Now!
@@ -166,7 +171,9 @@ const Funding: React.FC = () => {
               </div>
             </div>
           </div>
-          <div className="image-car ipr-logo flex flex-col justify-center items-center text-center rounded-[15px] p-[40px] gap-[30px] text-[3rem] text-primary font bg-[#f0f8ff] shadow-[0_4px_8px_rgba(0,0,0,0.1)] border-2 border-[#ccc] transition-all duration-300 ease-in hover:-translate-y-[5px] hover:shadow-[0_8px_16px_rgba(0,0,0,0.2)] max-[1024px]:p-[30px] max-[768px]:p-[20px] max-[480px]:p-[15px] max-[768px]:h-[200px] max-[480px]:h-[150px]">
+
+          {/* IPR Image */}
+          <div className="image-car order-6 max-[768px]:order-6 flex flex-col justify-center items-center text-center rounded-[15px] p-[40px] gap-[30px] text-[3rem] text-primary font bg-[#f0f8ff] shadow-[0_4px_8px_rgba(0,0,0,0.1)] border-2 border-[#ccc] transition-all duration-300 ease-in hover:-translate-y-[5px] hover:shadow-[0_8px_16px_rgba(0,0,0,0.2)] max-[1024px]:p-[30px] max-[768px]:p-[20px] max-[480px]:p-[15px] max-[768px]:h-[200px] max-[480px]:h-[150px]">
             <img
               src="https://res.cloudinary.com/dopcjxehj/image/upload/v1743089682/one_refxk2.jpg"
               alt="IPR Centre Logo"
@@ -175,12 +182,21 @@ const Funding: React.FC = () => {
           </div>
         </div>
       </div>
+
       <h1
         id="#achievement"
         className="main-heading text-[3rem] font text-[#2b5482] mb-[20px] text-center pt-[50px] max-[768px]:text-[2.5rem] max-[480px]:text-[2rem]"
       >
-        Startups & Projects Funded
+        Companies Supported
       </h1>
+      <SupportedCompanies/>
+      <h1
+        id="#achievement"
+        className="main-heading text-[3rem] font text-[#2b5482] mb-[20px] text-center pt-[50px] max-[768px]:text-[2.5rem] max-[480px]:text-[2rem]"
+      >
+        Projects Funded
+      </h1>
+
       <StudentAchievementsCarousel />
     </>
   );
