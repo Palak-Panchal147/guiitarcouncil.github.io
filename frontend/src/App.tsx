@@ -23,6 +23,9 @@ import NotFoundPage from "./components/NotFoundPage";
 import ThreeDPrintingWorkshop from "./components/ThreeDPrintingWorkshop";
 import DroneWorkshop from "./components/DroneWorkshop";
 import ScrollToTop from "./components/ScrollToTop";
+import Ssip from "./components/Ssip";
+import Nodal from "./components/Nodal";
+import Ipr from "./components/Ipr";
 
 const AppContent: React.FC = () => {
   const location = useLocation();
@@ -173,6 +176,54 @@ const AppContent: React.FC = () => {
                 } md:pt-[80px]`}
               >
                 <DroneWorkshop/>
+                <Footer />
+              </div>
+            </>
+          }
+        />
+        <Route
+          path="/ssip"
+          element={
+            <>
+              <Navbar isOpen={isOpen} setIsOpen={setIsOpen} />
+              <div
+                className={`min-h-screen bg-gray-50 transition-all duration-300 ${
+                  isOpen ? "pt-[300px]" : "pt-[80px]"
+                } md:pt-[80px]`}
+              >
+                <Ssip/>
+                <Footer />
+              </div>
+            </>
+          }
+        />
+        <Route
+          path="/ipr"
+          element={
+            <>
+              <Navbar isOpen={isOpen} setIsOpen={setIsOpen} />
+              <div
+                className={`min-h-screen bg-gray-50 transition-all duration-300 ${
+                  isOpen ? "pt-[300px]" : "pt-[80px]"
+                } md:pt-[80px]`}
+              >
+                <Ipr/>
+                <Footer />
+              </div>
+            </>
+          }
+        />
+        <Route
+          path="/nodal"
+          element={
+            <>
+              <Navbar isOpen={isOpen} setIsOpen={setIsOpen} />
+              <div
+                className={`min-h-screen bg-gray-50 transition-all duration-300 ${
+                  isOpen ? "pt-[300px]" : "pt-[80px]"
+                } md:pt-[80px]`}
+              >
+                <Nodal/>
                 <Footer />
               </div>
             </>

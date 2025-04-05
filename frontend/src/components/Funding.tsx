@@ -20,6 +20,7 @@ const Funding: React.FC = () => {
 
       <div className="main-content flex justify-center items-center my-[100px] max-[768px]:my-[50px] max-[480px]:my-[30px]">
         <div className="grid-container grid grid-cols-2 gap-[50px] w-[90%] max-w-[1400px] max-[1024px]:gap-[40px] max-[768px]:grid-cols-1 max-[768px]:gap-[30px] max-[480px]:gap-[20px]">
+          {/* SSIP */}
           <div className="car flex flex-col justify-center items-center text-center rounded-[15px] p-[40px] gap-[30px] bg-white shadow-[0_4px_8px_rgba(0,0,0,0.1)] transition-all duration-300 ease-in hover:-translate-y-[5px] hover:shadow-[0_8px_16px_rgba(0,0,0,0.2)] max-[1024px]:p-[30px] max-[768px]:p-[20px] max-[480px]:p-[15px]">
             <h3
               id="ssip"
@@ -40,13 +41,13 @@ const Funding: React.FC = () => {
             <div className="funding-btn-container flex justify-center gap-[40px] max-[480px]:gap-[20px]">
               <div className="funding-btn">
                 <a
-                  href="https://drive.google.com/drive/folders/1EspgxXUoavBlETSnxstEfpMGsI_fCFma"
+                  href="/ssip"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Learn more about SSIP 2.0"
                 >
                   <button className="mt-[20px] px-[20px] py-[10px] text-[1.2rem] bg-[#2b5482] text-white border-none rounded-[8px] cursor-pointer transition-all duration-300 ease-in hover:bg-secondary hover:text-primary hover:border hover:border-[#333] max-[1024px]:text-[1.1rem] max-[768px]:text-[1rem] max-[480px]:text-[0.875rem] max-[480px]:px-[15px] max-[480px]:py-[8px]">
-                    Learn More
+                    Learn more about this grant
                   </button>
                 </a>
               </div>
@@ -64,6 +65,8 @@ const Funding: React.FC = () => {
               </div>
             </div>
           </div>
+
+          {/* Nodal */}
           <div className="image-car flex flex-col justify-center items-center text-center rounded-[15px] p-[40px] gap-[30px] text-[3rem] text-primary font bg-[#f0f8ff] shadow-[0_4px_8px_rgba(0,0,0,0.1)] border-2 border-[#ccc] transition-all duration-300 ease-in hover:-translate-y-[5px] hover:shadow-[0_8px_16px_rgba(0,0,0,0.2)] max-[1024px]:p-[30px] max-[768px]:p-[20px] max-[480px]:p-[15px] max-[768px]:h-[200px] max-[480px]:h-[150px]">
             <img
               src="https://res.cloudinary.com/dopcjxehj/image/upload/v1743068561/as4-new_pufqeo.png"
@@ -97,13 +100,13 @@ const Funding: React.FC = () => {
             <div className="funding-btn-container flex justify-center gap-[40px] max-[480px]:gap-[20px]">
               <div className="funding-btn">
                 <a
-                  href="https://drive.google.com/drive/folders/1eTX32wmbZudS-lHEtyVyEwtc8CM55iX5"
+                  href="/nodal"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Learn more about Nodal Institute"
                 >
                   <button className="mt-[20px] px-[20px] py-[10px] text-[1.2rem] bg-[#2b5482] text-white border-none rounded-[8px] cursor-pointer transition-all duration-300 ease-in hover:bg-secondary hover:text-primary hover:border hover:border-[#333] max-[1024px]:text-[1.1rem] max-[768px]:text-[1rem] max-[480px]:text-[0.875rem] max-[480px]:px-[15px] max-[480px]:py-[8px]">
-                    Learn More
+                    Learn more about this grant
                   </button>
                 </a>
               </div>
@@ -121,6 +124,8 @@ const Funding: React.FC = () => {
               </div>
             </div>
           </div>
+
+          {/* IPR */}
           <div className="car flex flex-col justify-center items-center text-center rounded-[15px] p-[40px] gap-[30px] bg-white shadow-[0_4px_8px_rgba(0,0,0,0.1)] transition-all duration-300 ease-in hover:-translate-y-[5px] hover:shadow-[0_8px_16px_rgba(0,0,0,0.2)] max-[1024px]:p-[30px] max-[768px]:p-[20px] max-[480px]:p-[15px]">
             <h3 className="text-[#2b5482] text-[4rem] font m-0 max-[1024px]:text-[3rem] max-[768px]:text-[2.5rem] max-[480px]:text-[2rem]">
               IPR Centre
@@ -137,13 +142,13 @@ const Funding: React.FC = () => {
             <div className="funding-btn-container flex justify-center gap-[40px] max-[480px]:gap-[20px]">
               <div className="funding-btn">
                 <a
-                  href="https://drive.google.com/file/d/1krFQgyQ_nasChoSLrFF8zbHzNg1yM9G9/view"
+                  href="/ipr"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Learn more about IPR Centre"
                 >
                   <button className="mt-[20px] px-[20px] py-[10px] text-[1.2rem] bg-[#2b5482] text-white border-none rounded-[8px] cursor-pointer transition-all duration-300 ease-in hover:bg-secondary hover:text-primary hover:border hover:border-[#333] max-[1024px]:text-[1.1rem] max-[768px]:text-[1rem] max-[480px]:text-[0.875rem] max-[480px]:px-[15px] max-[480px]:py-[8px]">
-                    Learn More
+                    Learn more about IPR support
                   </button>
                 </a>
               </div>
